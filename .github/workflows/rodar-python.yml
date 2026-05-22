@@ -16,11 +16,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Instalar bibliotecas
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
       - name: Rodar arquivo Python
         run: |
           python gerar_apresentacao.py
