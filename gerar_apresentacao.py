@@ -27,7 +27,7 @@ import base64, os, re
 PASTA = os.path.dirname(os.path.abspath(__file__))
 
 # ─── Arquivos ─────────────────────────────────────────────────────────────
-INPUT_HTML  = os.path.join(PASTA, 'quintal-barigui-investidores.html')
+INPUT_HTML  = os.path.join(PASTA, 'index.html')
 OUTPUT_HTML = os.path.join(PASTA, 'quintal-barigui-investidores-FINAL.html')
 
 # ─── Mapeamento de imagens ─────────────────────────────────────────────────
